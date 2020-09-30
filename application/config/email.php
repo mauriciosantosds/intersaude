@@ -1,0 +1,10 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+$config['protocol'] = 'smtp';
+$config['smtp_host'] = 'ssl://mail.planointer.com.br';
+$config['smtp_port'] = '465';
+$config['smtp_timeout'] = '40';
+$config['smtp_user'] = 'contato@planointer.com.br';
+$config['smtp_pass'] = '10+a_secreto_a+10';
+$config['charset'] = 'utf-8';
+$config['newline'] = "\r\n";
+$config['mailtype'] = 'html';
